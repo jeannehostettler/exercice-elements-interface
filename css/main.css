@@ -17,6 +17,7 @@
 
 html {
   font-size: 16px;
+  background-color: white;
 }
 
 body {
@@ -28,10 +29,61 @@ body {
   line-height: 1.5rem;
   width: 320px;
   margin: 0 auto;
+  background-color: #e1e7f6;
+}
+
+nav {
+  background-color: #1c1c1c;
+  color: white;
+  margin-bottom: 31.5px;
+}
+
+nav a {
+  display: flex;
+  flex-direction: column;
+  padding: 11.5px 16px;
+}
+
+.button-1 {
+  background-color: #3a5af7;
+  color: white;
+  margin-right: 174px;
+  margin-left: 16px;
+  margin-bottom: 32px;
+  padding: 12px 33px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  filter: drop-shadow(0px 2px 4px rgba(58, 90, 247, 0.5));
+}
+
+.button-2 {
+  background-color: #3a5af7;
+  color: white;
+  margin-right: 174px;
+  margin-left: 16px;
+  margin-bottom: 32px;
+  text-align: center;
+  padding: 12px 33px;
+  border-radius: 24px;
+  box-shadow: 0px 2px 4px 0px rgba(58, 90, 247, 0.5);
+}
+
+.button-3 {
+  background-color: white;
+  color: #3a5af7;
+  margin-right: 256px;
+  margin-left: 16px;
+  margin-bottom: 64px;
+  border-radius: 50%;
 }
 
 a {
   color: inherit;
+  border-bottom: 1px solid #3a5af780;
+  margin: 0 16px;
+  font-size: 18px;
+  text-decoration: none;
 }
 
 img,
